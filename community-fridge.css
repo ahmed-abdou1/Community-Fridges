@@ -1,0 +1,333 @@
+.community-fridge {
+    text-align: center;
+    color: #003848;
+    font-weight: 800;
+    padding-top: 70px;
+}
+
+body {
+    background-color: #B1D8E7;
+}
+
+.first-div {
+    /* border-style: solid; */
+    /* text-align: center; */
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ul-pg1 {
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+    padding-inline-start: 0px;
+}
+
+.first-buttons {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* li {
+    display: block;
+    flex: 0 1 auto;
+    list-style-type: none;
+    background: #FA8176;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+} */
+
+li {
+    list-style-type: none;
+}
+
+#home-page-btn {
+    list-style-type: none;
+    display: block;
+    flex: 0 1 auto;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FA8176;
+    border-width: thin;
+}
+
+#home-page-btn:hover {
+    box-shadow: grey 1px 3px;
+    cursor: pointer;
+}
+
+.a-tag {
+    text-decoration: none;
+}
+
+.hamburger-icon {
+    width: 70px;
+    float: right;
+}
+
+.h1-pg2 {
+    text-align: center;
+    padding-top: 70px;
+    color: #003848;
+    /* font-weight: 800; */
+}
+
+#fridge-img {
+    width: 125px;
+}
+
+.container-pg2 {
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-color: #FA8176;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-pg2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#outer-div-pg2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#ul-pg2 {
+    padding: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+#h1-pg3 {
+    text-align: center;
+    padding-top: 70px;
+    color: #003848;
+}
+
+.h2-pg3 {
+    padding-left: 30px;
+}
+
+#category-pg3 {
+    border-style: solid;
+    border-color: #FA8176;
+    width: 275px;
+    height: 375px;
+    border-radius: 20px;
+    background-color: #FA8176;
+    color: white;
+    /* margin-left: 50px; */
+}
+
+.basic-info-pg3 {
+    padding-left: 30px;
+}
+
+
+
+.capacity {
+    height: 30px;
+    background-color: #E45170;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.progress {
+    border-style: solid;
+    border-color: #9196A6;
+    width: 200px;
+    margin-left: 30px;
+    background-color: #9196A6;
+    border-radius: 10px;
+}
+
+.product-left-col {
+    padding-left: 0;
+}
+
+.product-category {
+    padding-left: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px
+}
+
+.product-category:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #609EA1;
+}
+
+#container-2-pg3 {
+    /* border-style: solid; */
+    background-color: #609EA1;
+    color: white;
+    border-radius: 20px;
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.all-products {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+#inner-product-div {
+    /* border-style: solid; */
+    display: flex;
+}
+
+.dairy-div {
+    display: flex;
+}
+
+.produce-div {
+    display: flex;
+}
+
+.pantry-div {
+    display: flex;
+}
+
+.product-container2-ul {
+    margin-top: 30px;
+}
+
+.product-container2-pg3 {
+    margin-bottom: 20px;
+}
+
+/* .break-line {
+    width: 600px;
+    border-color: black;
+} */
+
+.break-line-dairy {
+    width: 600px;
+    border-color: black;
+}
+
+.break-line-produce {
+    width: 600px;
+    border-color: black;
+}
+
+.break-line-pantry {
+    width: 600px;
+    border-color: black;
+}
+
+.minus {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+
+    /* -moz-border-radius: 50%; or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: #50D8D7;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.number {
+    display: inline-block;
+    /* border-style: solid; */
+    padding: 5px 25px;
+    background-color: white;
+    font-size: 1.5em;
+    color: black;
+}
+
+.add {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+
+    /* -moz-border-radius: 50%; or 50% */
+    border-radius: 50%; /* or 50% */
+
+    background-color: #50D8D7;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+.add:hover {
+    cursor: pointer;
+}
+
+.minus:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    /* border-style: solid; */
+    height: fit-content;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 90px;
+    /* padding-left: 20px;
+    padding-top: 90px; */
+}
+
+#over-all-container {
+    display: flex;
+    justify-content: center;
+}
+
+#final-container {
+    width: 275px;
+    height: 375px;
+    border-radius: 20px;
+    background-color: #A52B2A;
+    color: white;
+}
+
+.picked-up-items {
+    height: 100px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    background-color: black;
+}
+
+.h2-picked-up-items {
+    margin: 0%;
+    padding-top: 20px;
+}
+
+
+
+/* .product-container2-pg3 {
+    padding-left: 200px;
+} */
+
+/* 
+#available-fridges-pg2 {
+    display: none;
+} */
+
+/* #fridges-shown-pg3 {
+    display: none;
+} */
